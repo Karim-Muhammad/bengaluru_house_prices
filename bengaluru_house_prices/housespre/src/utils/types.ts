@@ -3,4 +3,5 @@ export type BusinessType = {
   uiBHK: number;
   uiBathrooms: number;
   location: string;
+  estimated_price?: number;
 };

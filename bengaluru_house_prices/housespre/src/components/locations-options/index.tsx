@@ -28,7 +28,7 @@ export default function LocationsOptions({
       ) : (
         <select
           name="location"
-          className="options-locations"
+          className="options-locations border border-b-black p-3 outline-none"
           onChange={handleFormChange}
         >
           <option value="" disabled defaultChecked>
